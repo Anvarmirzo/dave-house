@@ -1,0 +1,167 @@
+.header {
+  background: url(../images/bgrus.jpg);
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px -10px;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+.header-nav {
+  background: #000;
+  height: 42px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav__a {
+  color: #fff;
+}
+
+.header-nav__a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-nav__dave {
+  font-weight: 700;
+  margin-left: 16px;
+  color: #fff;
+
+}
+
+.header-nav__dave:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+.course {
+  background: #fff;
+  border-radius: 50px;
+  margin-top: -50px;
+}
+
+.course-text {
+  text-align: center;
+  font-family: 'Montserrat';
+
+}
+
+.course-text__h2 {
+  font-size: 35px;
+  margin: 30px 0;
+}
+
+.course-text__p {
+  font-size: 18px;
+  margin: 30px 0;
+}
+
+.course-schedule {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-schedule-img__img {
+  width: 400px;
+  height: 300px;
+}
+
+.course-schedule-text__t {
+  font-weight: 400;
+  margin: 30px 0;
+}
+
+.course-back {
+  text-align: center;
+}
+
+.course-back__a {
+  font-size: 25px;
+  display: inline-block;
+  margin: 40px auto;
+  color: #000;
+
+}
+
+.course-back__a:hover {
+  text-decoration: none;
+  color: #000;
+
+}
+
+
+
+
+
+
+
+
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 20px 0 15px;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-dave {
+  font-size: 25px;
+  color: #fff;
+}
+
+.footer-dave__a {
+  color: #fff;
+}
+
+.footer-dave__a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-address {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.footer-addres__a {
+  color: #fff;
+}
+
+.footer-addres__a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-address-social {
+  display: flex;
+  justify-content: space-between;
+  width: 60px;
+}
+
+.footer-address-social__a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer-address-social__a:hover {
+  color: #fff;
+}
